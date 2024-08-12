@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    background-color: black;
+    color: white;
+    margin: 0%;
+}
+h1{
+    font-family: 'Viga', sans-serif;
+    font-size: 80px;
+    text-align: center;
+}
+h3{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+a{
+    font-family: 'Inconsolata', monospace; 
+}
+header{
+    background-color: #92140c;
+    margin-bottom: 50px;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    transition: 0.5s;
+    text-align: center;
+}
+header img{
+    width: 5%;
+}
+
+
+.vacio{
+    height:80px;
+}
+
+.centro{
+    margin: auto;
+    width: 80%;
+}
+
+.trabajo1, .trabajo2, .trabajo3, .trabajo4, .trabajo5{
+    display: flex;
+}
+.imagen{
+    width: 50%;
+}
+.imagen img{
+    width: 100%;
+}
+.texto{
+    width: 50%;
+    margin-top: 70px;
+}
+.texto a{
+    text-decoration: none;
+    padding: 8px;
+    border-style:solid;
+    border-color: #92140c;
+    background-color: #92140c;
+    color: white !important;
+    border-radius: 5px;
+}
+.texto a:hover{
+    background-color: white;
+    border-color: white;
+    color: #92140c !important;
+}

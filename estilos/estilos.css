@@ -1,0 +1,495 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    background-color: black;
+    color: white    ;
+    margin: 0%;
+}
+
+p{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+a{
+    font-family: 'Inconsolata', monospace; 
+}
+
+h1{
+    font-family: 'Viga', sans-serif;
+}
+
+h2{
+    font-family: 'Inconsolata', monospace;
+}
+
+h3{
+    font-family: 'Inconsolata', monospace;
+}
+
+.font{
+    margin: 0px;
+    font-size: 80px;
+}
+.font1{
+    margin: 0px;
+    padding-bottom: 40px;
+    font-size: 60px;
+    opacity: 0.8;
+}
+.font3{
+    color: #92140c;
+    margin: 0px;
+    padding-top: 80px;
+}
+
+.logo{
+    display: block;
+    float: left;
+    width: 5%;
+    margin: 0%;
+}
+.ima{
+    width: 100%;
+}
+.menuderecha{
+    width: 40%;
+    float: right;
+}
+span{
+    color: #92140c;
+}
+header{
+    margin-bottom: 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    transition: 0.5s;
+    display: flex;
+    justify-content: space-between;
+}
+.abajo{
+    background-color: rgba(92, 92, 92, 0.678);
+}
+
+#menu{
+    height: 50px;
+}
+#menu ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: space-around;
+}
+#menu a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    width: 20%;
+    height: 50px;
+    line-height: 80px;
+}
+#menu a:hover{
+    color: #92140c;
+}
+.vacio{
+    height:50px;
+}
+.cuadro{
+    padding: 8px;
+    border-style:solid;
+    border-color: #92140c;
+    background-color: #92140c;
+    color: white !important;
+    border-radius: 5px;
+}
+.cuadro:hover{
+    background-color: white;
+    border-color: white;
+    color: #92140c !important;
+}
+
+
+
+.centro{
+    margin: auto;
+    width: 80%;
+}
+.centro1{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+#home{
+    height: 800px;
+    transition: 2s;
+}
+#home a{
+    text-decoration: none;
+    color: black;
+}
+#home p{
+    width: 40%;
+}
+
+
+
+#about{
+    transition: 2s;
+    display: flex;
+    justify-content: space-between;
+}
+#about h1{
+    font-size: 40px;
+}
+#about ul{
+    display: flex;
+    justify-content: space-between;
+}
+#about li{
+    color: #92140c;
+    font-family: 'Inconsolata', monospace;
+}
+.texto{
+    padding: 5%;
+    width: 50%;
+}
+.foto{
+    width: 30%;
+    margin-right: 100px;
+    border-radius: 10px;
+    background-image: url(../imagenes/Foto-mia-roja.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.7s;
+}
+.foto:hover{
+    background-image: url(../imagenes/Foto-mia.jpg);
+}
+
+
+
+#experience{
+    padding: 5%;
+    transition: 2s;
+}
+#experience h2{
+    margin-bottom: 50px;
+}
+#experience h1{
+    font-size: 40px;
+}
+.texto1{
+    display: flex;
+    justify-content: space-between;
+}
+#menuizq{
+    width: 25%;
+}
+#menuizq ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+#menuizq a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 2%;
+    height: 50px;
+}
+#menuizq a:hover{
+    color: #92140c;
+}
+.trabajo{
+    width: 70%;
+    padding: 2%;
+    height: auto;
+}
+#pituca, #chit, #olive, #tele, #banco, #grass{
+    padding: 1%;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+
+#work i{
+    font-size: 25px;
+    color:#92140c;
+}
+#work h2{
+    color: white;
+}
+#work h1{
+    font-size: 40px;
+}
+.centro2{
+    margin: auto;
+    width: 80%;
+}
+.trabajo1, .trabajo2, .trabajo3, .trabajo4, .trabajo5, .trabajo6, .trabajo7{
+    border-color:#92140c;
+    border-style: solid;
+    border-radius: 8px;
+    display: block;
+    float: left;
+    width: 30%;
+    height: 220px;
+    margin: 1%;
+    padding: 2%;
+    text-align: center;
+    transition: 0.7s;
+}
+.trabajo7{
+    margin-left: 390px;
+}
+.centro2 a{
+    text-decoration: none;
+}
+.trabajo1:hover{
+    background-image: url("../imagenes/feid-rojo.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.trabajo2:hover{
+    background-image: url("../imagenes/Mozzafiato-cajaroja-back.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.trabajo3:hover{
+    background-image: url("../imagenes/saco-dragon-rojo.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.trabajo4:hover{
+    background-image: url("../imagenes/wall-street-rojo.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.trabajo5:hover{
+    background-image: url("../imagenes/43-rojo.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.trabajo6:hover{
+    background-image: url("../imagenes/tatuaje8-rojo.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.trabajo7:hover{
+    background-image: url("../imagenes/banner-rojo.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.vacio{
+    clear: both;
+}
+
+
+
+#contact{
+    margin-top: 200px;
+    height: 700px;
+    padding: 5%;
+    text-align: center;
+    transition: 2s;
+}
+#contact h1{
+    font-size: 60px;
+    margin: 0%;
+}
+#contact p{
+    font-size: 20px;
+}
+#contact a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    padding: 2%;
+}
+footer a{
+    text-decoration: none;
+    color: #92140c;
+}
+footer a:hover{
+    color: white;
+}
+
+.colorblanco{
+    color: white;
+}
+
+
+.redes {
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    bottom: 0px;
+    right: 5px;
+    transform: translate(-50%, -50%);
+    }
+
+    .redes li {
+    list-style: none;
+    margin: 10px;
+    }
+
+    .redes li a {
+    position: relative; 
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 43px;
+    background: #92140c;
+    border-radius: 50%;
+    font-size: 20px;
+    color: black;
+    transition: .5s;
+    }
+
+    .redes li a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: white;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+    }
+
+    .redes li a:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px white;
+    }
+
+    .redes li a:hover {
+    color: white;
+    box-shadow: 0 0 5px #ffffff;
+    text-shadow: 0 0 5px #ffffff;
+    }
+
+.centrado{
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hidden{
+    overflow: hidden;
+}
+
+
+    @keyframes ldio-saok0ckusb8-o {
+        0%    { opacity: 1; transform: translate(0 0) }
+       49.99% { opacity: 1; transform: translate(76px,0) }
+       50%    { opacity: 0; transform: translate(76px,0) }
+      100%    { opacity: 0; transform: translate(0,0) }
+    }
+    @keyframes ldio-saok0ckusb8 {
+        0% { transform: translate(0,0) }
+       50% { transform: translate(76px,0) }
+      100% { transform: translate(0,0) }
+    }
+    .ldio-saok0ckusb8 div {
+      position: absolute;
+      width: 76px;
+      height: 76px;
+      border-radius: 50%;
+      top: 62px;
+      left: 24px;
+    }
+    .ldio-saok0ckusb8 div:nth-child(1) {
+      background: #92140c;
+      animation: ldio-saok0ckusb8 1.2195121951219512s linear infinite;
+      animation-delay: -0.6097560975609756s;
+    }
+    .ldio-saok0ckusb8 div:nth-child(2) {
+      background: #ffffff;
+      animation: ldio-saok0ckusb8 1.2195121951219512s linear infinite;
+      animation-delay: 0s;
+    }
+    .ldio-saok0ckusb8 div:nth-child(3) {
+      background: #92140c;
+      animation: ldio-saok0ckusb8-o 1.2195121951219512s linear infinite;
+      animation-delay: -0.6097560975609756s;
+    }
+    .loadingio-spinner-dual-ball-don35ci2noj {
+      width: 200px;
+      height: 200px;
+      display: inline-block;
+      overflow: hidden;
+      background: none;
+    }
+    .ldio-saok0ckusb8 {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      transform: translateZ(0) scale(1);
+      backface-visibility: hidden;
+      transform-origin: 0 0; /* see note above */
+    }
+    .ldio-saok0ckusb8 div { box-sizing: content-box; }
+    /* generated by https://loading.io/ */
+
+
+
+#menu2{
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    display: none;
+    z-index: 5;
+    transition: 2s;
+}
+#menu2 i{
+    color: #92140c;
+}
+#menu2 ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+#menu2 a{
+    text-decoration: none;
+    text-align: center center;
+    color: black;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    padding: 2%;
+}
+#menu2 a:hover{
+    color:#92140c;
+}
+.bajar{
+    height: 190px !important;
+}

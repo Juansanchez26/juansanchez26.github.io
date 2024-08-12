@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    margin: 0%;
+}
+h1{
+    color: white;
+    font-family: 'Viga', sans-serif;
+    font-size: 30px;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    margin-bottom: 50px;
+}
+
+span{
+    color: #92140c;
+}
+
+.t1{
+    text-align: center;
+    padding-top: 80px;
+}
+
+#caja{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.d1, .d2, .d3{
+    width: 29%;
+    height: 300px;
+    text-align: center;
+    line-height: 250px;
+    transition: 0.8s;
+}
+
+.d11{
+    text-decoration: none;
+    color: white;
+    font-family: 'Viga', sans-serif;
+    font-size: 30px;
+}
+
+.d1{
+    background-image: url(../imagenes/saco-dragon-rojo.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.d1:hover{
+    background-image: url(../imagenes/saco-dragon.png);
+}
+
+.d2{
+    background-image: url(../imagenes/feid-rojo.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.d2:hover{
+    background-image: url(../imagenes/Feid\ Compu.PNG);
+}
+
+.d3{
+    background-image: url(../imagenes/43-rojo.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.d3:hover{
+    background-image: url(../photo/imagenes/43.jpg);
+}
+
+.boton{
+    font-family: 'Hind Siliguri', sans-serif;
+    background-color: #92140c;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 1%;
+    text-align: center;
+    margin-left: 680px;
+    margin-bottom: 0;
+}
+.boton:hover{
+    background-color: white;
+    color: #92140c !important;
+}

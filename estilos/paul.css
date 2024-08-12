@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    margin: 0%;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    margin-bottom: 0%;
+}
+h3{
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-family: 'Inconsolata', monospace;
+}
+
+header{
+    background-color: #92140c;
+    margin-bottom: 50px;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    transition: 0.5s;
+    text-align: center;
+}
+header img{
+    width: 5%;
+}
+.vacio{
+    height:80px;
+}
+
+.centro{
+    margin: auto;
+    width: 80%;
+}
+
+.quees{
+    margin: 10px;
+    text-align: center;
+}
+.logo{
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    border-style: solid;
+    display: block;
+    float: left;
+    width: 30%;
+    margin-top: 50px;
+}
+.logo img{
+    width:43%;
+}
+.paleta{
+    font-family: 'Inconsolata', monospace;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-style: solid;
+    display: block;
+    float: left;
+    width: 67%;
+    padding: 1%;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.paleta img{
+    width: 100%;
+}
+
+.vacio1{
+    clear: both;
+}
+
+.public{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+.public a{
+    width: 20%;
+    padding: 1%;
+}
+.public img{
+    width: 100%;
+}

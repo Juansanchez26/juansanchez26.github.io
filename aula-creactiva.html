@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Creactiva | Juan Sánche</title>
+
+    <link rel="stylesheet" href="estilos/aula.css">
+
+    <!--Favicon-->
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+
+    <!--Tipografías -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Inconsolata&family=Viga&display=swap" rel="stylesheet">
+
+    <style>
+        @media (max-width:768px){
+            header img{
+                width: 20%;
+            }
+            h1{
+                font-size: 50px;
+            }
+            .trabajo1, .trabajo2, .trabajo3, .trabajo4, .trabajo5{
+                flex-wrap: wrap;
+                margin-bottom: 200px;
+            }
+            .imagen{
+                width: 100%;
+            }
+            .texto{
+                width: 100%;
+            }
+            .texto a{
+                margin-left: 110px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="index.html"><img src="imagenes/js (2).png"></a>
+    </header>
+    <div class="vacio"></div>
+    
+    <main>
+        <h1>Aula Creactiva Proyects</h1>
+        <div class="centro">
+            <section class="trabajo1">
+                <div class="imagen">
+                    <img src="imagenes/mockup-avengers.jpg" alt="">
+                </div>
+
+                <div class="texto">
+                    <h3>Trabajo realizado para Aula Creactiva de los Vengadores, manejando una Onepage.
+                    <br><br>
+                    Proyect made for Aula Creactiva about "The Avengers", using a Onepage.
+                    </h3>
+
+                    <a href="https://creaquetecrea.com/clase/juan/vengadores/" target="_blank">Show more</a>
+                </div>
+            </section>
+
+            <section class="trabajo2">
+                <div class="imagen">
+                    <img src="imagenes/feid.png" alt="">
+                </div>
+
+                <siv class="texto">
+                    <h3>Trabajo realizado para Aula Creactiva del artista Feid, manejando una landing page
+                    <br><br>
+                    Proyect made for Aula Creactiva about the Colombian artist Feid, using a landing page.
+                    </h3>
+
+                    <a href="https://www.creaquetecrea.com/clase/juan/landind/" target="_blank">Show more</a>
+                </siv>
+            </section>
+
+            <section class="trabajo3">
+                <div class="imagen">
+                    <img src="imagenes/monja.png" alt="">
+                </div>
+
+                <siv class="texto">
+                    <h3>Trabajo realizado para Aula Creactiva de la película "La Monja", manejando una landing page
+                    <br><br>
+                    Proyect made for Aula Creactiva about the movie "The Nun", using a landing page.    
+                    </h3>
+
+                    <a href="https://creaquetecrea.com/clase/juan/landing-monja/" target="_blank">Show more</a>
+                </siv>
+            </section>
+
+            <section class="trabajo4">
+                <div class="imagen">
+                    <img src="imagenes/mockup-twitch.png" alt="">
+                </div>
+
+                <siv class="texto">
+                    <h3>Trabajo realizado para Aula Creactiva de Aplicación de Streaming Twitch, manejando una onepage.
+                    <br><br>
+                    Proyect made for Aula Creactiva about the app Twitch, using a one page.    
+                    </h3>
+
+                    <a href="https://creaquetecrea.com/clase/juan/onepage/" target="_blank">Show more</a>
+                </siv>
+            </section>
+
+            <section class="trabajo5">
+                <div class="imagen">
+                    <img src="imagenes/mockup-minimalista.png" alt="">
+                </div>
+
+                <siv class="texto">
+                    <h3>Trabajo realizado para Aula Creactiva de página minimalísta, manejando una página de distribución interna.
+                    <br><br>
+                    Proyect made for Aula Creactiva about a minimal page, using a inter distribution page.    
+                    </h3>
+
+                    <a href="https://creaquetecrea.com/clase/juan/minimal/index.html" target="_blank">Show more</a>
+                </siv>
+            </section>
+        </div>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    $('a[href^="#"]').on('click', function(e){
+        e.preventDefault();
+        
+        var $target = $(this.hash);
+        var positionTarget = $target.offset().top;
+
+        $('html, body').animate({scrollTop: positionTarget}, 2000);
+    });
+</script>
+</body>
+</html>

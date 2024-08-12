@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    background-color: #E8F1DB;
+    color: black;
+    margin: 0%;
+}
+h1{
+    font-family: 'Viga', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    margin: 0%;
+    margin-top: 50px ;
+}
+h2{
+    font-family: 'Viga', sans-serif;
+}
+h3{
+    text-align: center;
+    margin: 0%;
+    margin-bottom: 50px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+header{
+    background-color: #718355;
+    margin-bottom: 50px;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    transition: 0.5s;
+    text-align: center;
+}
+header img{
+    width: 5%;
+}
+
+
+.vacio{
+    height:80px;
+}
+
+.centro{
+    margin: auto;
+    width: 80%;
+}
+
+
+.f1{
+    width: 80%;
+    margin-left: 85px;
+}
+
+.que{
+    text-align: center;
+    background-color: #718355;
+    color: #E8F1DB;
+    padding: 3%;
+    border-radius: 10px;
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.logo{
+    background-color: #718355;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 10px;
+    display: block;
+    float: left;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    padding: 4%;
+}
+.f, .f1 img{
+    width: 100%;
+}
+
+.paleta{
+    background-color: #718355;
+    float: left;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.paleta h2{
+    text-align: center;
+    color: #E8F1DB;
+}
+.paleta img{
+    width: 100%;
+}
+.final{
+    clear: both;
+}
+
+.mock{
+    background-color: #718355;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: #E8F1DB;
+    float: left;
+}
+.verde, .azul, .rojo{
+    padding: 2%;
+    width: 32%;
+}
+

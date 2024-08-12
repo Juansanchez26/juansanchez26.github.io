@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tattoo's | Juan Sánchez</title>
+
+    <link rel="stylesheet" href="../estilos/tattoo.css">
+
+    <!--Favicon-->
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+
+    <link rel="stylesheet" href="simplelightbox-master/dist/simple-lightbox.css">
+
+    <!--Iconos-->
+    <script src="https://kit.fontawesome.com/babe0e91eb.js" crossorigin="anonymous"></script>
+
+    <!--Tipografías -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Inconsolata&family=Viga&display=swap" rel="stylesheet">
+
+    <style>
+        @media (max-width: 768px){
+            header img{
+                width: 20%;
+            }
+            .fotos{
+                flex-wrap: wrap;
+            }
+            .fotos2{
+                flex-wrap: wrap;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="../index.html"><img src="../imagenes/js (2).png"></a>
+    </header>
+    <div class="vacio"></div>
+
+    <ul class="redes">
+        <li>
+          <a href="https://www.instagram.com/sanchez.tattoo04/" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          </li>
+      </ul>
+
+    <main>
+        <h1>Tattoos</h1>
+        <div class="centro">
+            <section class="fotos">
+                <a href="imagenes/tatuaje1.jpg"><img src="imagenes/tatuaje1.jpg"></a>
+
+                <a href="imagenes/tatuaje2.jpg"><img src="imagenes/tatuaje2.jpg"></a>
+
+                <a href="imagenes/tatuaje3.jpg"><img src="imagenes/tatuaje3.jpg"></a>
+
+                <a href="imagenes/tatuaje4.jpg"><img src="imagenes/tatuaje4.jpg"></a>
+
+                <a href="imagenes/tatuaje5.jpg"><img src="imagenes/tatuaje5.jpg"></a>
+            </section>
+
+            <section class="fotos2">
+                <a href="imagenes/tatuaje6.jpg"><img src="imagenes/tatuaje6.jpg"></a>
+
+                <a href="imagenes/tatuaje7.jpg"><img src="imagenes/tatuaje7.jpg"></a>
+
+                <a href="imagenes/tatuaje8.jpg"><img src="imagenes/tatuaje8.jpg"></a>
+
+                <a href="imagenes/tatuaje9.jpg"><img src="imagenes/tatuaje9.jpg"></a>
+
+                <a href="imagenes/tatuaje10.jpg"><img src="imagenes/tatuaje10.jpg"></a>
+            </section>
+        </div>
+    </main>
+
+    <div class="long"></div>
+
+    <script src="simplelightbox-master/dist/simple-lightbox.js"></script>
+
+    <script>
+        (function() {
+            var $gallery = new SimpleLightbox('.fotos a', {});
+        })();
+    </script>
+
+<script>
+    (function() {
+        var $gallery = new SimpleLightbox('.fotos2 a', {});
+    })();
+</script>
+    
+</body>
+</html>
